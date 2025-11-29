@@ -10,7 +10,8 @@ from warnings import simplefilter
 simplefilter(action='ignore', category = FutureWarning)
 
 
-df = pd.read_csv('cleveland.csv', header = None)
+df = pd.read_csv(r"C:\Users\Lenovo\Downloads\hdpr\Heart-Disease-Prediction\cleveland.csv", header=None)
+
 
 df.columns = ['age', 'sex', 'cp', 'trestbps', 'chol',
               'fbs', 'restecg', 'thalach', 'exang', 
